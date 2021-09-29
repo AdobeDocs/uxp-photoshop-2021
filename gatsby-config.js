@@ -14,143 +14,216 @@ module.exports = {
   siteMetadata: {
     versions: [
       {
-        title: 'v2.0',
-        selected: true
+        title: '2022',
+        path: 'https://adobe.io/photoshop/uxp/'
       },
       {
-        title: 'v1.4',
-        path: 'https://github.com/AdobeDocs/analytics-1.4-apis'
+        title: '2021',
+        selected: true
       }
     ],
     pages: [
       {
-        title: 'Adobe Analytics',
-        path: '/'
+        title: "UXP for Adobe Photoshop",
+        path: "/",
       },
       {
-        title: 'Guides',
-        path: '/guides/'
+        title: "Guides",
+        path: "/guides/",
       },
       {
-        title: 'API Reference',
-        menu: [{
-          title: 'API Reference v2.0',
-          description: 'Adobe Analytics Reporting API',
-          path: '/api/index.md'
-        }, {
-          title: 'API Reference v1.4',
-          description: 'API Spec for the Adobe Marketing Cloud',
-          path: '/api/1.4.md'
-        }]
+        title: "Photoshop API",
+        path: "/ps_reference/",
       },
       {
-        title: 'Support',
-        path: '/support/'
-      }
+        title: "UXP API",
+        path: "/uxp/",
+      },
+      {
+        title: "Sample Code",
+        path: "/code_samples/",
+      },
+      {
+        title: "Design",
+        path: "/design/",
+      },
+      {
+        title: "Developer Tool",
+        path: "/devtool/",
+      },
+      {
+        title: "Share",
+        path: "/distribution/",
+      },
+      {
+        title: "Community",
+        path: "/community/",
+      },
     ],
     subPages: [
       {
-        title: 'Get Started',
-        path: '/guides/',
+        title: "Getting Started",
+        path: "/guides/",
+        header: true,
         pages: [
           {
-            title: 'Overview',
-            path: '/guides/'
+            title: "Getting Started",
+            path: "/guides/",
           },
           {
-            title: 'Creating an OAuth Client',
-            path: '/guides/creating_oauth_client/'
+            title: "UXP for You",
+            path: "/guides/uxp_for_you/",
           },
           {
-            title: 'OAuth using cURL',
-            path: '/guides/oauth_using_curl/'
+            title: "The UXP Toolchain",
+            path: "/guides/uxp_guide/uxp-toolchain/",
           },
           {
-            title: 'OAuth using POSTMAN',
-            path: '/guides/oauth_using_postman/'
+            title: "UXP for Photoshop Basics",
+            path: "/guides/ps_basics/",
           },
           {
-            title: 'JWT Authentication',
-            path: '/guides/jwt_authentication/'
-          }
-        ]
-      },
-      {
-        title: 'Reporting API',
-        path: '/guides/reporting_api/',
-        pages: [
-          {
-            title: 'Overview',
-            path: '/guides/reporting_api/'
+            title: "UXP Developer Tool",
+            path: "/guides/uxp-developer-tool/",
           },
           {
-            title: 'Reporting with breakdowns',
-            path: '/guides/reporting_api/reporting_breakdowns/',
+            title: "Developer Tool Walkthrough",
+            path: "/guides/udt-walkthrough/",
+          },
+          {
+            title: "Other Topics »»",
+            path: "/guides/uxp_guide/uxp-misc/",
             pages: [
               {
-                title: 'Reporting with single breakdowns',
-                path: '/guides/reporting_api/reporting_breakdowns/',
+                title: "The UXP Manifest",
+                path: "/guides/uxp_guide/uxp-misc/manifest-v4/",
               },
               {
-                title: 'Reporting with multiple breakdowns',
-                path: '/guides/reporting_api/reporting_breakdowns/reporting_multiple_breakdowns/',
+                title: "Localization and Platforms",
+                path: "/guides/uxp_guide/uxp-misc/localization-and-platforms/",
               },
-            ]
+              {
+                title: "Flyout Menus",
+                path: "/guides/uxp_guide/uxp-misc/flyout-menus/",
+              },
+              {
+                title: "File Access",
+                path: "/guides/uxp_guide/uxp-misc/file-access/",
+              },
+              {
+                title: "Network I/O",
+                path: "/guides/uxp_guide/uxp-misc/network-io/",
+              },
+              {
+                title: "Spectrum CSS",
+                path: "/guides/uxp_guide/uxp-misc/spectrum-css/",
+              },
+            ],
           },
           {
-            title: 'Reporting tips and tricks',
-            path: '/guides/reporting_api/reporting_tips_tricks/'
-          }
-        ]
+            title: "How Do I...",
+            path: "/guides/how-to/",
+          },
+          {
+            title: "Theme Awareness",
+            path: "/guides/theme-awareness/",
+          },
+          {
+            title: "Debugging your Plugins",
+            path: "/guides/debugging/",
+          },
+        ],
       },
       {
-        title: 'Discovery API',
-        path: '/guides/discovery_api/'
-      },
-      {
-        title: 'Segments API',
-        path: '/guides/segments_api/'
-      },
-      {
-        title: 'Calculated Metrics API',
-        path: '/guides/calculated_metrics_api/'
-      },
-      {
-        title: 'Migrating',
-        path: '/guides/migrating/'
-      },
-      {
-        title: 'Overview',
-        path: '/support/',
+        title: "Code Samples",
+        path: "/code_samples/",
         header: true,
         pages: [
           {
-            title: 'Help',
-            path: '/support/'
+            title: "Overview",
+            path: "/code_samples/",
           },
           {
-            title: 'FAQ',
-            path: '/support/FAQ/'
+            title: "JavaScript Samples",
+            path: "/code_samples/javascript_samples/",
           },
           {
-            title: 'How to contribute',
-            path: '/support/contribute/'
-          }
-        ]
+            title: "React Samples",
+            path: "/code_samples/react_samples/",
+          },
+          {
+            title: "batchPlay Samples",
+            path: "/code_samples/batchplay_samples/",
+          },
+        ],
       },
       {
-        title: 'Community',
-        path: '/support/community/',
+        title: "Share",
+        path: "/distribution/",
         header: true,
         pages: [
           {
-            title: 'Information',
-            path: '/support/community/'
-          }
-        ]
-      }
-    ]
+            title: "Packaging Your Plugin",
+            path: "/distribution/packaging-your-plugin/",
+          },
+          {
+            title: "Options for Distribution",
+            path: "/distribution/distribution-options/",
+          },
+          {
+            title: "Submission and Review",
+            path: "/distribution/submission-checklist/",
+          },
+          {
+            title: "Marketing Your Plugin",
+            path: "/distribution/marketing/",
+          },
+        ],
+      },
+      {
+        title: "UXP API",
+        path: "/uxp/reference-js/",
+        header: true,
+        pages: [
+          {
+            title: "JavaScript Reference",
+            path: "/uxp/reference-js/",
+            pages: require("./reference-js.js"),
+          },
+          {
+            title: "CSS Reference",
+            path: "/uxp/reference-css/",
+            pages: require("./reference-css.js"),
+          },
+          {
+            title: "HTML Reference",
+            path: "/uxp/reference-html/",
+            pages: require("./reference-html.js"),
+          },
+          {
+            title: "Spectrum UXP Reference",
+            path: "/uxp/reference-spectrum/",
+            pages: require("./reference-spectrum.js"),
+          },
+          {
+            title: "Known Issues",
+            path: "/uxp/known-issues/",
+          },
+        ],
+      },
+      {
+        title: "Photoshop API",
+        path: "/ps_reference/",
+        pages: require("./reference-ps.js"),
+      },
+      {
+        title: "Overview",
+        path: "/design/",
+        pages: require("./reference-design.js"),
+      },
+      ...require("./reference-devtool.js"),
+    ],
   },
   plugins: [`@adobe/gatsby-theme-aio`],
-  pathPrefix: process.env.PATH_PREFIX || '/dev-site-documentation-template/'
+  pathPrefix: process.env.PATH_PREFIX || "/photoshop/uxp/2021",
 };
