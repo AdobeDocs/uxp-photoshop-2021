@@ -15,7 +15,7 @@ module.exports = {
     versions: [
       {
         title: '2022',
-        path: '/photoshop/uxp/'
+        path: '/photoshop/uxp/2022/'
       },
       {
         title: '2021',
