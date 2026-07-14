@@ -187,26 +187,19 @@ You will need to set your plugin manifest's minimum version depending on the hos
 - The companion app must successfully install on platforms it claims to support.
 - The companion app must be able to successfully communicate with the plugin.
 - The companion app must not cause abnormal resource usage (e.g., CPU, RAM, storage).
-- It is the developer's responsibility to include the following legal disclosure, verbatim, in the plugin's description:
+- It is the developer's responsibility to include the following legal disclosure, verbatim, in the plugin's description.
 
-  _This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application._
-
-  _You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project._
-
-  _Please refer to the developer’s plugin description for more information._
+| Required disclosure text (plugin description) |
+| --- |
+| _This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application._<br /><br />_You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project._<br /><br />_Please refer to the developer’s plugin description for more information._ |
 
 #### First-launch disclosure
 
-- The first time a plugin is installed, it must display a modal dialog containing the following legal disclosure, verbatim:
+- The first time a plugin is installed, it must display a modal dialog containing the following legal disclosure, verbatim.
 
-  _This plugin has been developed by a third-party developer and you may be asked to enter your administrator password to complete the installation. In addition, this plugin may require installation and use of a companion application, which may have generative AI capabilities and be able to perform actions on your behalf. You are responsible for determining whether the use of this plugin and any companion application is appropriate for your project. Be sure to only install plugins and companion applications from developers you trust, as they may be able to:_
-
-  - _Read and write to files on your device_
-  - _Make and receive requests_
-  - _Access any devices present on your computer_
-  - _Generate content in your Adobe application_
-
-  _Adobe’s privacy policy and terms of use are not applicable to this plugin. Please refer to the developer’s plugin description and terms of service for more information._
+| Required disclosure text (first-launch modal) |
+| --- |
+| _This plugin has been developed by a third-party developer and you may be asked to enter your administrator password to complete the installation. In addition, this plugin may require installation and use of a companion application, which may have generative AI capabilities and be able to perform actions on your behalf. You are responsible for determining whether the use of this plugin and any companion application is appropriate for your project. Be sure to only install plugins and companion applications from developers you trust, as they may be able to:_<br /><br /><ul><li>Read and write to files on your device</li><li>Make and receive requests</li><li>Access any devices present on your computer</li><li>Generate content in your Adobe application</li></ul><br />_Adobe’s privacy policy and terms of use are not applicable to this plugin. Please refer to the developer’s plugin description and terms of service for more information._ |
 
 ### User experience
 
