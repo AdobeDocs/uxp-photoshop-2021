@@ -190,24 +190,17 @@ You will need to set your plugin manifest's minimum version depending on the hos
 
 It is the developer's responsibility to include the following legal disclosure, verbatim, in the plugin's description:
 
-_This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application._
-
-_You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project._
-
-_Please refer to the developer’s plugin description for more information._
+| Legal disclosure |
+| --- |
+| **This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application. You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project.** |
 
 #### First-launch disclosure
 
-The first time a plugin is installed, it must display a modal dialog containing the following legal disclosure, verbatim:
+For plugins that require a companion application, it is not compulsory, but it is good practice, for the modal dialog shown the first time the plugin is launched within the host app to include the following legal disclosure, verbatim. This modal should also include a close button so the user can dismiss it:
 
-_This plugin has been developed by a third-party developer and you may be asked to enter your administrator password to complete the installation. In addition, this plugin may require installation and use of a companion application, which may have generative AI capabilities and be able to perform actions on your behalf. You are responsible for determining whether the use of this plugin and any companion application is appropriate for your project. Be sure to only install plugins and companion applications from developers you trust, as they may be able to:_
-
-_• Read and write to files on your device_<br />
-_• Make and receive requests_<br />
-_• Access any devices present on your computer_<br />
-_• Generate content in your Adobe application_
-
-_Adobe’s privacy policy and terms of use are not applicable to this plugin. Please refer to the developer’s plugin description and terms of service for more information._
+| Legal disclosure |
+| --- |
+| **This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application. You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project.** |
 
 ### User experience
 
