@@ -194,7 +194,7 @@ It is the developer's responsibility to include the following legal disclosure, 
 | --- |
 | **This plugin requires installation and use of a companion application. Companion applications may include generative AI capabilities and be able to perform actions on your behalf, including accessing your files, exporting data, and generating content in your Adobe application. You are responsible for determining whether the use of this plugin and, as applicable, its companion application, is appropriate for your project.** |
 
-#### First-launch disclosure
+#### First-launch disclosure (optional)
 
 When a plugin that requires a companion application is launched for the first time within the host app, it should display a modal dialog. While not required, we recommend including the legal disclosure below, verbatim, within this dialog. The dialog must include a close button so users can dismiss it:
 
