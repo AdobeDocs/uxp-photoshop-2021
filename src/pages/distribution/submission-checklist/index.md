@@ -196,7 +196,7 @@ It is the developer's responsibility to include the following legal disclosure, 
 
 #### First-launch disclosure
 
-For plugins that require a companion application, including the following legal disclosure, verbatim, in the modal dialog shown the first time the plugin is launched within the host app is not mandatory, though it is the preferred approach. This modal should also include a close button that allows users to dismiss it:
+When a plugin that requires a companion application is launched for the first time within the host app, it should display a modal dialog. While not required, we recommend including the legal disclosure below, verbatim, within this dialog. The dialog must include a close button so users can dismiss it:
 
 | Legal disclosure |
 | --- |
